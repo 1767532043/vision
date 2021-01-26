@@ -1,0 +1,35 @@
+{
+  "name": "yuguang-gold-lead-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "update": "ncu -u"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "echarts": "^4.8.0",
+    "element-ui": "^2.13.2",
+    "videojs-contrib-hls": "^5.15.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.3",
+    "vue-seamless-scroll": "^1.1.21",
+    "vue-video-player": "^5.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.4",
+    "@vue/cli-service": "^4.5.4",
+    "node-sass": "^4.14.1",
+    "npm-check-updates": "^6.0.1",
+    "sass-loader": "^9.0.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
