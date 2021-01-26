@@ -268,6 +268,8 @@ export default {
     vueSeamlessScroll,
     Setting,
   },
+
+  //监听num变化
   watch: {
     num: {
       handler(val, oldval) {
